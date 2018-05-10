@@ -78,9 +78,8 @@ setup(
     author='Jeremy Fincher',
     author_email='jemfinch@supybot.com',
     maintainer='James McCoy',
-    maintainer_email='vega.james@gmail.com',
+    maintainer_email='jamessan@jamessan.com',
     url='https://github.com/Supybot/Supybot',
-    download_url='https://github.com/Supybot/Supybot/releases',
     platforms=['linux', 'linux2', 'win32', 'cygwin', 'darwin'],
     description='A flexible and extensible Python IRC bot and framework.',
     long_description=normalizeWhitespace("""A robust, full-featured Python IRC
@@ -88,8 +87,12 @@ setup(
     system for specifying user permissions with as much as per-command
     granularity.  Batteries are included in the form of numerous plugins
     already written."""),
+    project_urls={
+        'Source': 'https://github.com/Supybot/Supybot',
+        'Superseded By': 'https://github.com/ProgVal/Limnoria',
+    },
     classifiers = [
-        'Development Status :: 4 - Beta',
+        'Development Status :: 7 - Inactive',
         'Environment :: Console',
         'Environment :: No Input/Output (Daemon)',
         'Intended Audience :: End Users/Desktop',

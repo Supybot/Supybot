@@ -1,4 +1,10 @@
-Version 0.83.5
+Version 0.84.0
+
+** Supybot is dead, long live Limnoria **
+
+This release contains accumulated bug fixes and changes since 0.83.4.1 (not all
+documented below), but really you should switch to Limnoria --
+https://github.com/ProgVal/Limnoria.
 
 The minimum supported Python version has been bumped to 2.6.
 
